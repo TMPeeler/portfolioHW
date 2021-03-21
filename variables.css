@@ -1,5 +1,5 @@
 :root {
-    --colorway1: black;
+    --colorway1: rgba(153, 71, 230, 0.459), rgb(153, 71, 230), white;
     --colorway2: white;
-    
+
 }
