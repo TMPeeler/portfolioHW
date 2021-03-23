@@ -49,7 +49,7 @@ footer {
 }
 
 ul li {
-   
+   flex-wrap: wrap;
     margin-left: 50px;
     
 }
@@ -81,12 +81,22 @@ img:hover {
     box-shadow: 0 0 20px rgb(153, 7, 129);
 }
 
+
+
 p {
     font-size: 25px;
-    margin: 0 auto;
+    
     
 }
 
+
+.AboutMe {
+    display: flex;
+    background: chartreuse;
+    background-image: linear-gradient( lime, green, darkgreen);
+    border-radius: 25px;
+
+}
 figure {
 border-radius: 15px;
 }
@@ -100,20 +110,21 @@ border-radius: 15px;
 article {
     display: flex;
     color: white;
-    background-color: rgb(43, 36, 36);
-    justify-content: left;
+    
+    
 }
+
 
 section {
     /*margin-top: 600px; */
     display: flex;
 }
-.demo1 {
+#demo1 {
     /*margin-top: 600px; */
     display: flex;
-    width: 1000px;
-    height: 500px;
-    object-fit: cover;
+    
+    justify-content: center;
+    
     /*position: relative; */
     /*justify-content: inherit; */
 }
