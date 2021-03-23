@@ -133,7 +133,38 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
 }
+.otherImage {
+    display: flex;
+    object-fit: cover;
+    background-size: 500px;
+    height: 500px;
+    width: 500px;
+    background-image: url("https://static7.depositphotos.com/1186701/742/i/950/depositphotos_7420841-stock-photo-3d-human-charcter-holding-number.jpg");
+    margin-left: 25px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.otherImage:hover {
+    box-shadow: 0 0 20px rgb(153, 7, 129);
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
 /*
 body > article {
-    margin-top: 300px;
+    margin-top: 300px; I didn't need this part but I was trying to make the first article move down because my header was blocking it at one point, I honestly dont even know how I fixed it but this was not part of the solution
 } */
+@media (max-width:768px) {
+
+    header{
+       width: 100%;
+    }
+    .otherImage{
+        width: 300px;
+        /* so this ***kinda*** fixes the problem but for some reason the picture is off-centered on mobile */
+    }
+}
