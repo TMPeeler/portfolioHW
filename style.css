@@ -49,6 +49,7 @@ footer {
 }
 
 ul li {
+   
     margin-left: 50px;
     
 }
@@ -82,6 +83,7 @@ img:hover {
 
 p {
     font-size: 25px;
+    margin: 0 auto;
     
 }
 
@@ -114,6 +116,11 @@ section {
     object-fit: cover;
     /*position: relative; */
     /*justify-content: inherit; */
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 /*
 body > article {
