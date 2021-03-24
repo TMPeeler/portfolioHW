@@ -44,6 +44,7 @@ I pretty much linked all my css sheets and started going. I first placed as many
 }
 ^^^ this part was very crucial to making sure that the site didn't break on mobile
 ## Picture of website currently deployed
+
 ![screenshot](homeworkscreenshot.png);
 
 ## Authors
